@@ -1,43 +1,16 @@
-Quick guile to run server in localhost:
-1. Install node.js 18 version.
-2. Install https://github.com/Askile/nostarve-server repository
-3. Open project in Visual studio code or Webstorm.
-4. Open terminal. Binds: Visual studio - CTRL + `; Webstorm - CTRL + F12
-5. Write ```npm install``` in console
-6. Write ```node compiled/server.js```
+# Installation
+> `npm install --save @types/node`
 
-Quick guide to run master server:
-1. Install node.js 18 version.
-2. Install this repository
-3. Open project in Visual studio code or Webstorm.
-4. Open terminal. Binds: Visual studio - CTRL + `; Webstorm - CTRL + F12
-5. Write ```npm install``` in console
-6. Write ```node app.js```
+# Summary
+This package contains type definitions for Node.js (https://nodejs.org/).
 
-Quick guide to run in production mode:
-1. Install Filezilla and Termius.
-3. Buy domain.
-4. Buy 2x servers (choose linux ubuntu 20+ version as OS).
-5. Connect servers to cloudflare.
-6. Change config in JSON folder. Set production to true. Put ur domain and subdomain.
-5. Open Filezilla and Termius.
-6. (Filezilla) Connect to server with SFTP protocol.
-7. (Filezilla) Create folder.
-8. (Filezilla) Send all files to folder.
-9. (Termius) Join to host.
-10. (Termius) Install nodejs to host:
-- ```curl -sL https://deb.nodesource.com/setup_18.x -o /tmp/nodesource_setup.sh``` 
- - ```sudo bash /tmp/nodesource_setup.sh```
- - ```sudo apt install nodejs```
-11. (Termius) Install screen to host:
- - ```sudo apt update```
- - ```sudo apt install screen```
-12. (Termius) Start screen session:
- - ```screen``` (Note: if u rejoin to host u need write "screen -r" to return session)
-13. (Termius) Press escape.
-14. (Termius) Start server:
- - ```node app.js```
-15.  Follow the steps from 6 to 14 with another host.
-16.  (Termius) Start master:
- - ```node compiled/server.js```
-17. Play.
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node.
+
+### Additional Details
+ * Last updated: Sat, 05 Aug 2023 10:32:49 GMT
+ * Dependencies: none
+ * Global values: `AbortController`, `AbortSignal`, `__dirname`, `__filename`, `console`, `exports`, `gc`, `global`, `module`, `process`, `require`, `structuredClone`
+
+# Credits
+These definitions were written by [Microsoft TypeScript](https://github.com/Microsoft), [DefinitelyTyped](https://github.com/DefinitelyTyped), [Alberto Schiabel](https://github.com/jkomyno), [Alvis HT Tang](https://github.com/alvis), [Andrew Makarov](https://github.com/r3nya), [Benjamin Toueg](https://github.com/btoueg), [Chigozirim C.](https://github.com/smac89), [David Junger](https://github.com/touffy), [Deividas Bakanas](https://github.com/DeividasBakanas), [Eugene Y. Q. Shen](https://github.com/eyqs), [Hannes Magnusson](https://github.com/Hannes-Magnusson-CK), [Huw](https://github.com/hoo29), [Kelvin Jin](https://github.com/kjin), [Klaus Meinhardt](https://github.com/ajafff), [Lishude](https://github.com/islishude), [Mariusz Wiktorczyk](https://github.com/mwiktorczyk), [Mohsen Azimi](https://github.com/mohsen1), [Nicolas Even](https://github.com/n-e), [Nikita Galkin](https://github.com/galkin), [Parambir Singh](https://github.com/parambirs), [Sebastian Silbermann](https://github.com/eps1lon), [Thomas den Hollander](https://github.com/ThomasdenH), [Wilco Bakker](https://github.com/WilcoBakker), [wwwy3y3](https://github.com/wwwy3y3), [Samuel Ainsworth](https://github.com/samuela), [Kyle Uehlein](https://github.com/kuehlein), [Thanik Bhongbhibhat](https://github.com/bhongy), [Marcin Kopacz](https://github.com/chyzwar), [Trivikram Kamat](https://github.com/trivikr), [Junxiao Shi](https://github.com/yoursunny), [Ilia Baryshnikov](https://github.com/qwelias), [ExE Boss](https://github.com/ExE-Boss), [Piotr Błażejewicz](https://github.com/peterblazejewicz), [Anna Henningsen](https://github.com/addaleax), [Victor Perin](https://github.com/victorperin), [Yongsheng Zhang](https://github.com/ZYSzys), [NodeJS Contributors](https://github.com/NodeJS), [Linus Unnebäck](https://github.com/LinusU), [wafuwafu13](https://github.com/wafuwafu13), [Matteo Collina](https://github.com/mcollina), and [Dmitry Semigradsky](https://github.com/Semigradsky).
